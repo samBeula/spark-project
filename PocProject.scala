@@ -5,8 +5,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 
-import org.apache.spark.sql.execution.command.ClearCacheCommand.stats
-import org.apache.spark.sql.functions._
+
 
 object PocProject{
   def main(args: Array[String]): Unit = {
